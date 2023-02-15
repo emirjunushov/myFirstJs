@@ -1,0 +1,166 @@
+body {
+  width: 100%;
+  background-size: cover;
+  background-image: url(https://img1.akspic.ru/crops/3/5/1/1/5/151153/151153-lesistaya_mestnost-melburn-derevo-severnyh_listvennyh_lesov-stvol-3840x2160.jpg);
+  background-repeat: no-repeat;
+}
+
+span {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+.task-name,
+.task-email,
+.task-image,
+.task-phone {
+  height: 35px;
+  width: 100%;
+  border-radius: 11px;
+  background-color: #533195;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%237e126b'/%3E%3Cstop offset='1' stop-color='%237e126b' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23192186'/%3E%3Cstop offset='1' stop-color='%23192186' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%234c0365'/%3E%3Cstop offset='1' stop-color='%234c0365' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23533195'/%3E%3Cstop offset='1' stop-color='%23533195' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23590000'/%3E%3Cstop offset='1' stop-color='%23590000' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23083B6F'/%3E%3Cstop offset='1' stop-color='%23083B6F' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  outline: none;
+}
+.btnka {
+  border-radius: 10px;
+  height: 35px;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 10px;
+  height: 35px;
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  border: 1px solid white;
+  width: 40%;
+}
+
+.auth-form {
+  width: 15%;
+}
+.field {
+  text-align: center;
+  margin-bottom: 13px;
+}
+.emir {
+  text-align: center;
+}
+.ulka {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* modal */
+.main-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  width: 100%;
+  background-size: cover;
+  background-image: url(https://img3.akspic.ru/crops/4/8/8/9/4/149884/149884-solnechnyj_svet-okruzhayushchaya_sreda-hvojnye-derevo-starovozrastnye_lesa-3840x2160.jpg);
+}
+.inner-modal {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+.close {
+  margin-left: 28%;
+}
+
+.inp-edit1,
+.inp-edit2,
+.inp-edit3,
+.inp-edit4 {
+  width: 250px;
+  height: 35px;
+  margin-top: 5%;
+  background: transparent;
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: -7px 9px 44px 19px rgba(6, 54, 16, 0.51);
+  -moz-box-shadow: -7px 9px 44px 19px rgba(6, 54, 16, 0.51);
+  box-shadow: -7px 9px 44px 19px rgba(6, 54, 16, 0.51);
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
+.btn-save1 {
+  margin-top: 5%;
+  width: 120px;
+  height: 35px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: -7px 9px 44px 19px rgba(6, 54, 16, 0.51);
+  -moz-box-shadow: -7px 9px 44px 19px rgba(6, 54, 16, 0.51);
+  box-shadow: -7px 9px 44px 19px rgba(6, 54, 16, 0.51);
+}
+.card {
+  margin: 0 5px;
+  border: 1px solid white;
+  -webkit-box-shadow: 0px 13px 51px 23px rgba(6, 47, 14, 0.46);
+  -moz-box-shadow: 0px 13px 51px 23px rgba(6, 47, 14, 0.46);
+  box-shadow: 0px 13px 51px 23px rgba(6, 47, 14, 0.46);
+
+  border-radius: 15px;
+  width: 20%;
+}
+
+.btnEdit {
+  width: 60px;
+  border-radius: 10px;
+  height: 30px;
+  background: transparent;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  border: 1px solid white;
+}
+.btnDelete {
+  width: 60px;
+  border-radius: 10px;
+  height: 30px;
+  background: transparent;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  border: 1px solid white;
+}
+.btn-closer {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  background: transparent;
+  border-radius: 20px;
+  color: white;
+  font-size: 25px;
+  -webkit-box-shadow: -4px 9px 63px 35px rgba(255, 0, 0, 0.77);
+  -moz-box-shadow: -4px 9px 63px 35px rgba(255, 0, 0, 0.77);
+  box-shadow: -4px 9px 63px 35px rgba(255, 0, 0, 0.77);
+}
