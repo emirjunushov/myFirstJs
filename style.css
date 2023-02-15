@@ -160,7 +160,7 @@ span {
   border-radius: 20px;
   color: white;
   font-size: 15px;
-  -webkit-box-shadow: -4px 9px 63px 35px rgba(255, 0, 0, 0.77);
-  -moz-box-shadow: -4px 9px 63px 35px rgba(255, 0, 0, 0.77);
-  box-shadow: -4px 9px 63px 35px rgba(255, 0, 0, 0.77);
+  -webkit-box-shadow: -2px 1px 28px 30px rgba(133, 11, 11, 0.2);
+  -moz-box-shadow: -2px 1px 28px 30px rgba(133, 11, 11, 0.2);
+  box-shadow: -2px 1px 28px 30px rgba(133, 11, 11, 0.2);
 }
